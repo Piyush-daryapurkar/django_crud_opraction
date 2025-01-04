@@ -1,0 +1,43 @@
+{% load static %}
+
+{% block head %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "all.css" %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boss">
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="">Home</a></li>
+            </ul>
+            <ul>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Help</a></li>
+            </ul>
+          
+
+        </div>
+    </div>
+    
+    {% endblock  %}
+
+    {% block body %}{% endblock  %}
+
+    {% block footer %}
+    <h1>mai footer hu</h1>
+</body>
+</html>
+{% endblock  %}

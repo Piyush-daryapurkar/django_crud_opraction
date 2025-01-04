@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.boss{
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+.logo{
+    color: rgb(106, 78, 6);
+    padding: 18px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(106, 78, 6);
+    padding: 18px;
+
+}
+ul li{
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+
+
+}
