@@ -20,4 +20,7 @@ def contact(req):
 
 def head(req):
     return render(req,'head.html',{})
+
+def hero(req):
+    return render(req,'hero.html',{})
    

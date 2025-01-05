@@ -11,33 +11,92 @@
 </head>
 <body>
     <div class="boss">
-        <div class="logo">
-            <h1>logo</h1>
-        </div>
-        <div class="list">
-            <ul>
-                <li><a href="">Home</a></li>
-            </ul>
-            <ul>
-                <li><a href="">About</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Help</a></li>
-            </ul>
-          
+        <div class="nav">
+            <div class="logo">
+
+                <p  id="get"><i class="fa-solid fa-link"></i>Get the App</p>
+                    <div class="menu">
+                        <ul>
+                            <li>Investor Relations</li>
+                        </ul>
+                        <ul>
+                            <li>Add Restaurant</li>
+                        </ul>
+                        <ul>
+                            <li><a href="{% url 'hero' %}">Login</a></li>
+                        </ul>
+                        <ul>
+                            <li>Sign up </li>
+                        </ul>
+                    </div>
+            </div>
+
+
+            <div class="name">
+                <h1>DawatBox</h1>
+            </div>
+
+            <div class="tagline">
+                <h1>Discover the best food & drinks in Bhopal</h1>
+            </div>
+
+            <div class="input">
+                <select>
+                    <option value=""><i class="fa-sharp fa-solid fa-location-dot"></i>Awadhpuri Avnue Phase 3</option>
+                </select>
+                <input type="text" id="search" placeholder="Search for restaurants, Cuisine or dish">
+            </div>
+
+
 
         </div>
     </div>
     
     {% endblock  %}
 
-    {% block body %}{% endblock  %}
+    {% block body %}
+    {% endblock  %}
 
     {% block footer %}
-    <h1>mai footer hu</h1>
+     <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>Your favorite place to order delicious food online. Fresh ingredients, quick delivery, and excellent service!</p><br>
+                    <p>Wide Range of Options: From street food to gourmet meals, we partner with a variety of restaurants to cater to every taste</p><br>
+                    <p>Fast & Reliable Delivery: With our efficient delivery network, your food reaches you hot and fresh every time.</p><br>
+                    <p>Easy to Use: Our intuitive app and website make it simple to browse menus, place orders, and track your delivery</p><br>
+                    <p>Affordable Pricing: Enjoy exclusive deals, discounts, and combo offers that keep your wallet happy</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#"> Work With Us</a></li>
+                        <li><a href="#"> Investor Relations</a></li>
+                        <li><a href="#"> Report Fraud</a></li>
+                        <li><a href="#">  Press Kit</a></li>
+                        <li><a href="#"> Contact Us</a></li>
+
+        </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3><br>
+                    <p>Email: dawatbox@gmail.com</p><br>
+                    <p>Phone:+91 7999-82-92-69</p><br>
+                    <p>Address:Awadhpuri Bhopal 46-20-22</p><br>
+                    <div class="footer-social"><br>
+                        <a href="#"><img src="zfb(1).jpeg" alt="Facebook"></a><br><br>
+                        <a href="#"><img src="zinsta.jpeg" alt="Instagram"></a><br><br>
+                        <a href="#"><img src="zwtsp.webp" alt="Whatsapp"></a><br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Food Order Website. All Rights Reserved Made By Piyush Daryapurkar</p>
+            </div>
+        </footer>
 </body>
 </html>
 {% endblock  %}
