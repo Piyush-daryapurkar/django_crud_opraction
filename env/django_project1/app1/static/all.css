@@ -8,8 +8,8 @@
 .nav{
     height: 360px;
     width: 100%;
-    background-color: rgb(134, 11, 11);
-    background-image: url("znavbg.png");
+    background-color: rgb(134, 11, 12);
+    /* background-image: url("znavbg.png"); */
 
 
 
@@ -37,6 +37,8 @@
         color: white;
         display: flex;
         text-decoration: none;
+        cursor: pointer;
+
     }
     a:hover{
         list-style: none;
